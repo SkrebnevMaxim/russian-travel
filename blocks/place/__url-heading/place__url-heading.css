@@ -1,0 +1,22 @@
+.place__url-heading {
+  text-decoration: none;
+  max-width: 456px;
+  min-height: 12px;
+  font-family: "Inter", "Arial", "sans-serif";
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  color: #AAAAAA;
+}
+
+@media screen and (max-width: 1000px){
+.place__url-heading {
+  max-width: 352px;  
+  }
+}
+
+@media screen and (max-width: 700px){
+.place__url-heading {
+  max-width: 288px;  
+  }
+}

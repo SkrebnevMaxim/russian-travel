@@ -1,0 +1,31 @@
+.header {
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1184px;
+  min-height: 52px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 1200px) {
+.header {
+  max-width: 928px;
+  min-height: 52px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+.header {
+  max-width: 720px;
+  min-height: 52px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+.header {
+  max-width: 288px;
+  min-height: 42px;
+  }
+}
