@@ -8,22 +8,20 @@
   line-height: 122%;
   text-decoration-line: none;
 }
-
-
 .place__link:hover {
   text-decoration: underline;
-  opacity: .6; 
+  opacity: .6;
   transition: .1s linear;
 }
 
 @media screen and (max-width: 1000px){
 .place__link {
-  max-width: 352px;  
+  max-width: 352px;
   }
 }
 
 @media screen and (max-width: 700px){
 .place__link {
-  max-width: 288px;  
+  max-width: 288px;
   }
 }

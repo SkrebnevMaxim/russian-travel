@@ -9,7 +9,7 @@
 @media screen and (max-width: 1200px) {
 .footer {
   max-width: 928px;
-  } 
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -18,7 +18,7 @@
   margin-left: 24px;
   margin-right: 24px;
   margin-top: 88px;
-  } 
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -29,5 +29,5 @@
   margin-right: 16px;
   flex-direction: column;
   margin-top: 64px;
-  } 
+  }
 }

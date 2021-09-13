@@ -8,19 +8,19 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .place__image {
-    min-height: 440px;
-  } 
+.place__image {
+  min-height: 440px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  .place__image {
-    min-height: 340px;
-  } 
+.place__image {
+  min-height: 340px;
+  }
 }
 
 @media screen and (max-width: 320px) {
-  .place__image {
-    min-height: 320px;
-  } 
+.place__image {
+  min-height: 320px;
+  }
 }
