@@ -13,14 +13,14 @@
   line-height: 30px;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1023px){
 .place__website {
   max-width: 352px;
   margin-bottom: 33px;
   }
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 767px){
 .place__website {
   max-width: 288px;
   margin-left: 16px;
