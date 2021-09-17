@@ -1,5 +1,5 @@
 @media screen and (max-width: 700px) {
-.footer__link-li {
-margin-bottom: 32px;
+.footer__li {
+  margin-bottom: 32px;
   }
 }

@@ -1,25 +1,24 @@
 .places {
-  overflow: hidden;
   margin-top: 92px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 @media screen and (max-width: 1200px) {
 .places {
   max-width: 928px;
+  margin-top: 87px;
   }
 }
 
 @media screen and (max-width: 1000px) {
 .places {
-  max-width: 720px;
+  max-width: ;
+  margin-top: 88px;
   }
 }
 
 @media screen and (max-width: 700px) {
 .places {
-  max-width: 320px;
-  margin-bottom: 66px;
+  max-width: calc(100%-320px)/5;
+  margin-top: 67px;
   }
 }

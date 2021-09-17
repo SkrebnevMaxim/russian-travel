@@ -4,8 +4,7 @@
   justify-content: space-between;
   max-width: 1184px;
   min-height: 52px;
-  overflow: hidden;
-  margin-left: auto;
+  margin-left: 48px;
   margin-right: auto;
 }
 
@@ -19,7 +18,7 @@
 @media screen and (max-width: 1000px) {
 .header {
   max-width: 720px;
-  min-height: 52px;
+  margin-left: 24px;
   }
 }
 
@@ -27,5 +26,6 @@
 .header {
   max-width: 288px;
   min-height: 42px;
+  margin-left: 16px;
   }
 }

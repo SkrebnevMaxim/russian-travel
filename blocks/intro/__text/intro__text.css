@@ -4,7 +4,6 @@
   font-size: 16px;
   text-align: left;
   max-width: 690px;
-  min-height: 208px;
   font-family: "Inter", "Arial", "sans-serif";
   line-height: 163%;
 }
@@ -12,11 +11,13 @@
 @media screen and (max-width: 1000px) {
 .intro__text {
   max-width: 720px;
+  margin-top: 39px;
   }
 }
 
 @media screen and (max-width: 700px) {
 .intro__text {
   max-width: 288px;
+  margin-top: 51px;
   }
 }

@@ -1,14 +1,13 @@
 .cover__photo {
-    background-image: url(../../../sprint-3-images/cover-trains.jpg);
-    overflow: hidden;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 1184px;
-    min-height: 740px;
-    text-decoration: none;
-    position: relative;
+  background-image: url(../../../sprint-3-images/cover-trains.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1184px;
+  min-height: 740px;
+  text-decoration: none;
+  position: relative;
 }
 
 .cover__photo::after {
@@ -37,7 +36,7 @@
 @media screen and (max-width: 1000px) {
 .cover__photo {
   max-width: 768px;
-  min-height: 400px;
+  min-height: 480px;
   }
 }
 

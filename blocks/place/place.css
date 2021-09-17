@@ -1,25 +1,28 @@
 .place {
   max-width: 984px;
   margin-left: 148px;
-  margin-right: 148px;
-  margin-bottom: 80px;
+  margin-bottom: 81px;
   margin-top: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(2, 1fr));
-  grid-template-rows: repeat(auto-fit, minmax(2, 1fr));
+}
+.place:last-of-type {
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 1200px){
 .place {
   max-width: 928px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 48px;
+  margin-bottom: 62px;
   }
 }
 
 @media screen and (max-width: 1000px){
 .place {
   max-width: 720px;
+  margin-left: 24px;
+  margin-bottom: 47px;
   }
 }
 
@@ -27,6 +30,8 @@
 .place {
   max-width: 320px;
   display: block;
-  margin-bottom: 50px;
+  margin-bottom: 48px;
+  margin-left: 0;
+  margin-right: 0;
   }
 }
