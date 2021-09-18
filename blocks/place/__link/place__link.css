@@ -1,6 +1,6 @@
 .place__link {
   color: #FFFFFF;
-  max-width: 456px;
+  max-width: 100%;
   font-family: "Inter", "Arial", "sans-serif";
   font-size: 18px;
   line-height: 122%;
@@ -8,16 +8,4 @@
 .place__link:hover {
   opacity: 0.8;
   transition: .1s linear;
-}
-
-@media screen and (max-width: 1023px){
-.place__link {
-  max-width: 352px;
-  }
-}
-
-@media screen and (max-width: 767px){
-.place__link {
-  max-width: 288px;
-  }
 }

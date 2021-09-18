@@ -2,30 +2,27 @@
   color: #FFFFFF;
   display: flex;
   justify-content: space-between;
-  max-width: 1184px;
+  max-width: calc(100% - 96px);
   min-height: 52px;
-  margin-left: 48px;
+  margin-left: auto;
   margin-right: auto;
 }
 
 @media screen and (max-width: 1279px) {
 .header {
-  max-width: 928px;
   min-height: 52px;
   }
 }
 
 @media screen and (max-width: 1023px) {
 .header {
-  max-width: 720px;
-  margin-left: 24px;
+  max-width: calc(100% - 48px);
   }
 }
 
 @media screen and (max-width: 767px) {
 .header {
-  max-width: 288px;
+  max-width: calc(100% - 32px);
   min-height: 42px;
-  margin-left: 16px;
   }
 }

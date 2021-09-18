@@ -9,20 +9,18 @@
   margin-bottom: 38px;
   margin-left: 32px;
   align-self: flex-end;
-  max-width: 456px;
+  max-width: 100%;
   line-height: 30px;
 }
 
 @media screen and (max-width: 1023px){
 .place__website {
-  max-width: 352px;
-  margin-bottom: 33px;
+  margin-bottom: 36px;
   }
 }
 
 @media screen and (max-width: 767px){
 .place__website {
-  max-width: 288px;
   margin-left: 16px;
   margin-bottom: 26px;
   }
