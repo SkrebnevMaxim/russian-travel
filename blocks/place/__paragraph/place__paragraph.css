@@ -3,7 +3,7 @@
   margin-block-start: 0;
   margin-block-end: 0;
   margin-bottom: 27px;
-  mix-width: 484px;
+  min-width: 484px;
 }
 
 @media screen and (max-width: 1279px) {
