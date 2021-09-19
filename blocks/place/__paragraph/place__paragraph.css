@@ -3,25 +3,23 @@
   margin-block-start: 0;
   margin-block-end: 0;
   margin-bottom: 27px;
-  min-width: 484px;
+  width: 100%;
 }
 
 @media screen and (max-width: 1279px) {
   .place__paragraph {
-  min-width: 456px;
+  width: 100%;
   }
 }
 
 @media screen and (max-width: 1023px) {
 .place__paragraph {
   margin-bottom: 23px;
-  min-width: 352px;
   }
 }
 
 @media screen and (max-width: 767px) {
 .place__paragraph {
-  min-width: calc(100% - 32px);
   font-size: 16px;
   line-height: 163%;
   margin-bottom: 23px;
