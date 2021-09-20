@@ -8,10 +8,20 @@
   font-family: "Inter", "Arial", "sans-serif";
   font-weight: 900;
   font-size: 72px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 32px;
+  margin: 245px auto 32px;
   z-index: 1;
+}
+
+@media screen and (max-width: 1279px) {
+.cover__title {
+  margin-top: 195px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+.cover__title {
+  margin-top: 115px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -19,6 +29,7 @@
   max-width: 288px;
   font-size: 32px;
   line-height: 109%;
-  margin-bottom: 17px;
+  margin-bottom: 16px;
+  margin-top: 33px;
   }
 }

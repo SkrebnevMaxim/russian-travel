@@ -7,20 +7,20 @@
 @media screen and (max-width: 1279px) {
 .cover {
   max-width: 100%;
-  margin-top: 103px;
+  margin-top: 92px;
   align-content: center;
   }
 }
 
 @media screen and (max-width: 1023px) {
 .cover {
-  margin-top: 45px;
+  margin-top: 90px;
   }
 }
 
 @media screen and (max-width: 767px) {
 .cover {
   min-height: 100%;
-  margin-top: 85px;
+  margin-top: 66px;
   }
 }

@@ -16,5 +16,6 @@
 .footer {
   flex-direction: column;
   margin-top: 64px;
+  margin-left: 16px;
   }
 }

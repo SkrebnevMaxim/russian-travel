@@ -2,13 +2,16 @@
   font-family: "Inter", "Arial", "sans-serif";
   margin-block-start: 0;
   margin-block-end: 0;
-  margin-bottom: 27px;
+  margin-bottom: 26px;
   width: 100%;
+}
+.place__paragraph:last-of-type {
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 1023px) {
 .place__paragraph {
-  margin-bottom: 23px;
+  margin-bottom: 25px;
   }
 }
 
@@ -16,6 +19,5 @@
 .place__paragraph {
   font-size: 16px;
   line-height: 163%;
-  margin-bottom: 23px;
   }
 }
